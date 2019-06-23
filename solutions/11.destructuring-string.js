@@ -1,4 +1,4 @@
-const assert = require('chai').assert;
+ 
 
 // 11: destructuring - string
 // To do: make all tests pass, leave the assert lines unchanged!

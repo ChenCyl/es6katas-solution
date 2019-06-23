@@ -2,7 +2,7 @@
 // To do: make all tests pass, leave the asserts unchanged!
 // Follow the hints of the failure messages!
 
-const assert = require('chai').assert;
+ 
 describe('`const` is like `let` plus read-only', () => {
   describe('scalar values are read-only', () => {
     it('e.g. a number', () => {

@@ -1,5 +1,3 @@
-const assert = require('chai').assert;
-
 // 19: rest - with-destructuring（扁平化与数组化的关系）
 // To do: make all tests pass, leave the assert lines unchanged!
 // Follow the hints of the failure messages!

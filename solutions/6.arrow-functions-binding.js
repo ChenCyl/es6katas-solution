@@ -2,7 +2,7 @@
 // To do: make all tests pass, leave the asserts unchanged!
 // Follow the hints of the failure messages!
 
-const assert = require('chai').assert;
+ 
 class LexicallyBound {
   getFunction() {
     return () => {

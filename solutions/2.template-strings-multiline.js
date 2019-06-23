@@ -2,7 +2,7 @@
 // To do: make all tests pass, leave the asserts unchanged!
 // Follow the hints of the failure messages!
 
-const assert = require('chai').assert;
+ 
 describe('Template string, can contain multiline content', function() {
   it('wrap it in backticks (`) and add a newline, to span across two lines', function() {
     var normalString = 

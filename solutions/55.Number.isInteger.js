@@ -13,7 +13,7 @@ describe('`Number.isInteger()` determines if a value is an integer', function(){
       assert(Number.isInteger(zero));
     });
     it('0.000', function() {
-      const veryZero = 0.000;
+      const veryZero = 0.00000;
       assert(Number.isInteger(veryZero));
     });
     it('the string "0" is NOT an integer', function() {

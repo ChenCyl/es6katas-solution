@@ -1,4 +1,4 @@
-const assert = require('chai').assert;
+ 
 
 // 16: object-literal - computed properties
 // To do: make all tests pass, leave the assert lines unchanged!

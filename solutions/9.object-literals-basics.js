@@ -2,7 +2,7 @@
 // To do: make all tests pass, leave the assert lines unchanged!
 // Follow the hints of the failure messages!
 
-const assert = require('chai').assert;
+ 
 describe('The object literal allows for new shorthands', () => {
   const x = 1;
   const y = 2;

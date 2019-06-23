@@ -2,7 +2,7 @@
 // To do: make all tests pass, leave the asserts unchanged!
 // Follow the hints of the failure messages!
 
-const assert = require('chai').assert;
+ 
 describe('Arrow functions', function() {
   it('are shorter to write, instead of `function(){}` write `() => {}`', function() {
     var func = () => {};

@@ -1,6 +1,4 @@
-const assert = require('chai').assert;
-
-// 26: class - more-extends
+ // 26: class - more-extends
 // To do: make all tests pass, leave the assert lines unchanged!
 // Follow the hints of the failure messages!
 
