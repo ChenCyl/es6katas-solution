@@ -35,7 +35,7 @@ describe('a Promise represents an operation that hasn`t completed yet, but is ex
         .catch(() => done(new Error('The promise is expected to resolve with 42!')));
     });
     it('rejecting a promise is done by calling the callback given as 2nd parameter', function(done) {
-      let promise = new Promise((reject) => {
+      let promise = new Promise((resolve, reject) => {
         reject();
       });
       promise
@@ -53,7 +53,7 @@ describe('a Promise represents an operation that hasn`t completed yet, but is ex
         .catch(() => done(new Error('The promise is expected to resolve.')));
     });
     it('reject it at some later point in time, calling the 2nd callback', function(done) {
-      let promise = new Promise((reject) => {
+      let promise = new Promise((resolve, reject) => {
         setTimeout(() => reject(), 100);
       });
       promise
@@ -67,7 +67,7 @@ describe('a Promise represents an operation that hasn`t completed yet, but is ex
         resolve();
       });
       // return the promise to mocha, it has the checking for promise resolving built in, when it receives a promise
-      return promise;
+      return promise.then;
     });
   });
 });

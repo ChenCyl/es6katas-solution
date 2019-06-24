@@ -6,3 +6,7 @@
 
 ## List of katas
 
+### Number
+
+- [Number.isInteger()](solutions/55.Number.isInteger.js)
+
